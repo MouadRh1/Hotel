@@ -37,11 +37,29 @@ button:hover{
 }
 .section__Title span{
     color: #3997fa;
+    position: relative;
+}
+.section__Title span::before{
+    content: '';
+    position: absolute;
+    top:35px;
+    left: 0;
+    height: 04px;
+    width: 5rem;
+    background-color: #3997fa;
 }
 .section__Heading{
     font-size: 20px;
     font-weight: 600;
     font-family: 'poppins';
+}
+.underline{
+    height: 04px;
+    width: 5rem;
+    background-color: #3997fa;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 120px;
 }
 /* colorBlue: #135bd8 */
 /* colorYellow : #f5b006 */
