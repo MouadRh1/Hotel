@@ -1,0 +1,45 @@
+.testimontial_wrapper{
+    flex-direction: column;
+}
+.swiper{
+    width: 100% !important;
+}
+.testimontial{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.testimontial img{
+    width: 200px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.content{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.content h3{
+    font-size: 35px;
+}
+.content h3 span{
+    display: block;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'poppins';
+    color: #14428d;
+}
+.content p{
+    border: 1px solid rgba(131,131,131,0.2);
+    border-radius: 10px;
+    padding: 15px;
+}
+@media screen and (max-width:768px){
+    .testimontial{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
